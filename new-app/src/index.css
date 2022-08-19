@@ -1,0 +1,65 @@
+.robo-img{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.card{
+background-color: rgb(188, 255, 188);
+border-radius: 20px;
+padding: 5px;
+box-shadow: 4px 0px 4px 0px grey;
+margin: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+transition: all .2s ease-in-out; 
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.app{
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.whole-app{
+  text-align: center;
+
+
+}
+
+
+.search{
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  border-color: pink;
+  border-width: 2px;
+  
+}
+
+body{
+   background: rgb(43,150,5);
+  background: linear-gradient(234deg, rgba(43,150,5,1) 32%, rgba(10,1,134,1) 79%);
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+    }
+
+  .title{
+    font-family: 'SEGA LOGO FONT';
+    color: rgb(42, 210, 236);
+    font-size: 50px;
+    letter-spacing: 2px;
+  }  
